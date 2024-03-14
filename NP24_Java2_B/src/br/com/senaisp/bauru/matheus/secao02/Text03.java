@@ -19,4 +19,5 @@ public class Text03 {
 //      chamando o método drawLegs
         drawLegs();
         }    
+    
 }

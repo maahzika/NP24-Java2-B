@@ -79,7 +79,7 @@ public class Terminal {
 	
 	public void resgatarPremio(Cartao ct, int nrCategoria) {
 		CategoriaPremio apoio = null;
-		System.out.println("Operação: Restar prêmio");
+		System.out.println("Operação: Resgatar prêmio");
 		System.out.println("-".repeat(20));
 		switch(nrCategoria) {
 		case 1: apoio = categoria01; break;

@@ -1,7 +1,6 @@
 package br.com.senaisp.bauru.matheus.classes;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -20,8 +19,7 @@ public class ProdutoSimples {
 		saldo = 0;
 		custo = 0;
 		//Instanciando o DriverManager
-		conn = DriverManager
-		 .getConnection("jdbc:sqlite:C:\\Javalibs\\dados\\NP24_JAVA2_B.DB");
+		conn = ConexaoBD.getInstancia().getConn();
 	}
 	//Gettes e setters
 	public int getId() {

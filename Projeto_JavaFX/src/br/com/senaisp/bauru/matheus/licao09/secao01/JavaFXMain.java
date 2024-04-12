@@ -22,7 +22,7 @@ public class JavaFXMain extends Application {
                 System.out.println("Hello World!");
             }
         });
-        
+        System.out.println();
         StackPane root = new StackPane();
         root.getChildren().add(btn);
         
